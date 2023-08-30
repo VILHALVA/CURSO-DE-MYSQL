@@ -2,8 +2,8 @@
 👨‍⚖️PHP, PDO E MYSQL.
 
 [![GitHub Repo stars](https://img.shields.io/badge/VILHALVA-GITHUB-03A9F4?logo=github)](https://github.com/VILHALVA) 
-[![GitHub Repo stars](https://img.shields.io/badge/CURSO%20DE-PHP-03A9F4?logo=github)](https://github.com/VILHALVA/PHP) 
-[![GitHub Repo stars](https://img.shields.io/badge/CURSO%20DE-HTML%20CSS%20JS-03A9F4?logo=github)](https://github.com/VILHALVA/HTML-CSS-JS)<br>
+[![GitHub Repo stars](https://img.shields.io/badge/CURSO%20DE-PHP-03A9F4?logo=github)](https://github.com/VILHALVA/CURSO-DE-PHP) 
+[![GitHub Repo stars](https://img.shields.io/badge/CURSO%20DE-HTML%20CSS%20JS-03A9F4?logo=github)](https://github.com/VILHALVA/CURSO-DE-HTML-CSS-JS)<br>
 
 [![GitHub Repo stars](https://img.shields.io/badge/BAIXE%20OS-CODIGOS-03A9F4?logo=github)](https://github.com/EscolaWWW) 
 [![GitHub Repo stars](https://img.shields.io/badge/FORMULÁRIO%20COM-PHP%20E%20MYSQL-03A9F4?logo=youtube)](https://www.youtube.com/playlist?list=PLRwFkczMQf9D4l2D4LY7Uwqf83pzmgdCT) <br>
