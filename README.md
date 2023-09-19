@@ -33,6 +33,11 @@
 * ✅ PAGINAÇÃO EM PHP POO
 * ✅ WEBSITE CONVERSIONS
 
+## 💣VIDEOS DO YOUTUBE:
+* [GERENCIANDO DATABASE COM PHP MY ADMIN](https://youtu.be/zA3i-_cVbhE?si=w6W53kGe1PxEYLeP)
+* [GERENCIANDO DATABASE COM MYSQL WORK](https://youtu.be/wTVAAiBiwe0?si=hDOlP1CfhJMuyy7Y)
+* [CADASTRO E LOGIN COM PHP E MYSQL](https://youtu.be/wGxd36cYTAA?si=nEo7EcbklM_4GWSi)
+
 ![](https://i.imgur.com/waxVImv.png)
 
 # 💙SUA HISTÓRIA:
