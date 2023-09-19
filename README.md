@@ -36,6 +36,8 @@
 ## 💣VIDEOS DO YOUTUBE:
 * [GERENCIANDO DATABASE COM PHP MY ADMIN](https://youtu.be/zA3i-_cVbhE?si=w6W53kGe1PxEYLeP)
 * [GERENCIANDO DATABASE COM MYSQL WORK](https://youtu.be/wTVAAiBiwe0?si=hDOlP1CfhJMuyy7Y)
+* [GERENCIANDO DATABASE VIA TERMINAL DO WAMP64](https://youtu.be/-BaHaY69DTY?si=4VUPDdXzaNC6uYmY)
+* [GERENCIANDO DATABASE VIA CMD](https://youtu.be/opUo9u1siu0?si=Y9Eg2qnnVg_k3Ywn)
 * [CADASTRO E LOGIN COM PHP E MYSQL](https://youtu.be/wGxd36cYTAA?si=nEo7EcbklM_4GWSi)
 
 ![](https://i.imgur.com/waxVImv.png)
