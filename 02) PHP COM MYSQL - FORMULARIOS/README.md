@@ -1,19 +1,10 @@
-# [02) MYSQL COM PHP - FORMULARIOS](https://www.youtube.com/playlist?list=PLRwFkczMQf9D4l2D4LY7Uwqf83pzmgdCT)
+# 02 MYSQL COM PHP - FORMULARIOS
 👨‍⚖️PHP, PDO E MYSQL.
 
 [![GitHub Repo stars](https://img.shields.io/badge/VILHALVA-GITHUB-03A9F4?logo=github)](https://github.com/VILHALVA) 
-[![GitHub Repo stars](https://img.shields.io/badge/CURSO%20DE-PHP-03A9F4?logo=github)](https://github.com/VILHALVA/CURSO-DE-PHP) 
-[![GitHub Repo stars](https://img.shields.io/badge/CURSO%20DE-HTML%20CSS%20JS-03A9F4?logo=github)](https://github.com/VILHALVA/CURSO-DE-HTML-CSS-JS)<br>
-
-[![GitHub Repo stars](https://img.shields.io/badge/BAIXE%20OS-CODIGOS-03A9F4?logo=github)](https://github.com/EscolaWWW) 
-[![GitHub Repo stars](https://img.shields.io/badge/FORMULÁRIO%20COM-PHP%20E%20MYSQL-03A9F4?logo=youtube)](https://www.youtube.com/playlist?list=PLRwFkczMQf9D4l2D4LY7Uwqf83pzmgdCT) <br>
+[![GitHub Repo stars](https://img.shields.io/badge/-PLAYLIST%20DO%20YOUTUBE-blueviolet)](https://www.youtube.com/playlist?list=PLRwFkczMQf9D4l2D4LY7Uwqf83pzmgdCT) <br>
 
 <img src="https://codeacademy.sarutech.com/assets/icons/php-icon.png" align="center" width="280"> <br>
-
-## 🤷‍♂️REQUESITOS:
-* 🤯[SABER PROGRAMAR EM PHP](https://github.com/VILHALVA/CURSO-DE-PHP)
-* 🤯[SABER HTML E CSS](https://github.com/VILHALVA/CURSO-DE-HTML-CSS-JS)
-* 💻[INSTALAR O XAMPP](https://www.apachefriends.org/pt_br/index.html)
 
 ![](https://i.imgur.com/waxVImv.png)
 
