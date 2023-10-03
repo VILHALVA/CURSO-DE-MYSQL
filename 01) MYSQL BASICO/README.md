@@ -2,7 +2,6 @@
 👨‍⚖️CURSO BÁSICO DE BANCO DE DADOS MYSQL.
 
 [![GitHub Repo stars](https://img.shields.io/badge/VILHALVA-GITHUB-03A9F4?logo=github)](https://github.com/VILHALVA) 
-
 [![GitHub Repo stars](https://img.shields.io/badge/-PLAYLIST%20DO%20YOUTUBE-blueviolet)](https://youtube.com/playlist?list=PLHz_AreHm4dkBs-795Dsgvau_ekxg8g1r)
 
 <img src="https://www.paulligocki.com/wp-content/uploads/2022/03/MySQLLogo.png" align="center" width="280"> <br>
