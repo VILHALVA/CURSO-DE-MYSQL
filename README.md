@@ -2,43 +2,14 @@
 👨‍⚖️CURSO COMPRETO DE BANCO DE DADOS COM MYSQL.
 
 [![GitHub Repo stars](https://img.shields.io/badge/VILHALVA-GITHUB-03A9F4?logo=github)](https://github.com/VILHALVA) 
+[![GitHub Repo stars](https://img.shields.io/badge/VEJA%20OS-VIDEOS-03A9F4?logo=youtube)](https://www.youtube.com/@vilhalva100/search?query=mysql) <br>
+
 [![GitHub Repo stars](https://img.shields.io/badge/VEJA-DOCUMENTAÇÃO-03A9F4?logo=google)](https://dev.mysql.com/doc/) <br>
 
-[![GitHub Repo stars](https://img.shields.io/badge/CURSO%20DE-MYSQL-03A9F4?logo=youtube)](https://youtube.com/playlist?list=PLHz_AreHm4dkBs-795Dsgvau_ekxg8g1r)
-[![GitHub Repo stars](https://img.shields.io/badge/FORMULÁRIO%20COM-PHP%20E%20MYSQL-03A9F4?logo=youtube)](https://www.youtube.com/playlist?list=PLRwFkczMQf9D4l2D4LY7Uwqf83pzmgdCT) <br>
+[![GitHub Repo stars](https://img.shields.io/badge/-MYSQL%20BASICO-blueviolet)](https://youtube.com/playlist?list=PLHz_AreHm4dkBs-795Dsgvau_ekxg8g1r)
+[![GitHub Repo stars](https://img.shields.io/badge/-MYSQL%20COM%20PHP-blueviolet)](https://img.shields.io/badge/FORMULÁRIO%20COM-PHP%20E%20MYSQL-03A9F4?logo=youtube)](https://www.youtube.com/playlist?list=PLRwFkczMQf9D4l2D4LY7Uwqf83pzmgdCT)
 
 <img src="https://styles.redditmedia.com/t5_2qm6k/styles/communityIcon_dhjr6guc03x51.png?width=256&s=3e825b7205c7f497d4695028e358d26ee359f84b" align="center" width="280"> <br>
-
-## 😒[01) MYSQL BÁSICO:](https://youtube.com/playlist?list=PLHz_AreHm4dkBs-795Dsgvau_ekxg8g1r)
-* ✅ CONCEITO DE BANCO DE DADOS
-* ✅ INSTALANDO FERRAMENTAS
-* ✅ CRIANDO E MELHORANDO O BANCO DE DADOS
-* ✅ INSERINDO DADOS NA TABELA
-* ✅ ALTERANDO A ESTRUTURA DA TABELA
-* ✅ MANIPULANDO LINHAS
-* ✅ GERENCIANDO CÓPIAS DE SEGURANÇA
-* ✅ PHPMYADMIN
-* ✅ SELECT
-* ✅ MODELO RELACIONAL
-* ✅ CHAVES ESTRANGEIRAS E JOIN
-* ✅ INNER JOIN COM VÁRIAS TABELAS 
-
-## [😒02) PHP COM MYSQL - FORMULÁRIOS:](https://www.youtube.com/playlist?list=PLRwFkczMQf9D4l2D4LY7Uwqf83pzmgdCT)
-* ✅ FORMULARIO BÁSICO
-* ✅ FORMULARIO DE CADASTRO
-* ✅ SISTEMA DE LOGIN
-* ✅ FORMULARIO ENVIADO POR EMAIL
-* ✅ UPLOAD DE IMAGEM
-* ✅ CRIANDO RELATORIO PDF
-* ✅ PAGINAÇÃO EM PHP POO
-* ✅ WEBSITE CONVERSIONS
-
-## 💣VIDEOS DO YOUTUBE:
-* [GERENCIANDO DATABASE COM PHP MY ADMIN](https://youtu.be/zA3i-_cVbhE?si=w6W53kGe1PxEYLeP)
-* [GERENCIANDO DATABASE COM MYSQL WORK](https://youtu.be/wTVAAiBiwe0?si=hDOlP1CfhJMuyy7Y)
-* [GERENCIANDO DATABASE VIA TERMINAL DO WAMP64](https://youtu.be/-BaHaY69DTY?si=4VUPDdXzaNC6uYmY)
-* [GERENCIANDO DATABASE VIA CMD](https://youtu.be/opUo9u1siu0?si=Y9Eg2qnnVg_k3Ywn)
-* [CADASTRO E LOGIN COM PHP E MYSQL](https://youtu.be/wGxd36cYTAA?si=nEo7EcbklM_4GWSi)
 
 ![](https://i.imgur.com/waxVImv.png)
 
