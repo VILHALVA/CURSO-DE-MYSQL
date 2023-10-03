@@ -7,7 +7,7 @@
 [![GitHub Repo stars](https://img.shields.io/badge/VEJA-DOCUMENTAÇÃO-03A9F4?logo=google)](https://dev.mysql.com/doc/) <br>
 
 [![GitHub Repo stars](https://img.shields.io/badge/-MYSQL%20BASICO-blueviolet)](https://youtube.com/playlist?list=PLHz_AreHm4dkBs-795Dsgvau_ekxg8g1r)
-[![GitHub Repo stars](https://img.shields.io/badge/-MYSQL%20COM%20PHP-blueviolet)](https://img.shields.io/badge/FORMULÁRIO%20COM-PHP%20E%20MYSQL-03A9F4?logo=youtube)](https://www.youtube.com/playlist?list=PLRwFkczMQf9D4l2D4LY7Uwqf83pzmgdCT)
+[![GitHub Repo stars](https://img.shields.io/badge/-MYSQL%20COM%20PHP-blueviolet)](https://www.youtube.com/playlist?list=PLRwFkczMQf9D4l2D4LY7Uwqf83pzmgdCT)
 
 <img src="https://styles.redditmedia.com/t5_2qm6k/styles/communityIcon_dhjr6guc03x51.png?width=256&s=3e825b7205c7f497d4695028e358d26ee359f84b" align="center" width="280"> <br>
 
