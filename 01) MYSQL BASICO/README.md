@@ -1,14 +1,11 @@
-# [01) MYSQL BÁSICO](https://youtube.com/playlist?list=PLHz_AreHm4dkBs-795Dsgvau_ekxg8g1r)
+# MYSQL BÁSICO
 👨‍⚖️CURSO BÁSICO DE BANCO DE DADOS MYSQL.
 
 [![GitHub Repo stars](https://img.shields.io/badge/VILHALVA-GITHUB-03A9F4?logo=github)](https://github.com/VILHALVA) 
-[![GitHub Repo stars](https://img.shields.io/badge/CURSO%20DE-MYSQL-03A9F4?logo=youtube)](https://youtube.com/playlist?list=PLHz_AreHm4dkBs-795Dsgvau_ekxg8g1r) <br>
+
+[![GitHub Repo stars](https://img.shields.io/badge/-PLAYLIST%20DO%20YOUTUBE-blueviolet)](https://youtube.com/playlist?list=PLHz_AreHm4dkBs-795Dsgvau_ekxg8g1r)
 
 <img src="https://www.paulligocki.com/wp-content/uploads/2022/03/MySQLLogo.png" align="center" width="280"> <br>
-
-## 🤷‍♂️REQUESITOS:
-* 💻[INSTALAR O MYSQL WORKBENCH](https://dev.mysql.com/downloads/file/?id=517975)
-* 💻[INSTALAR O WAMPSERVER](https://www.wampserver.com/)
 
 ![](https://i.imgur.com/waxVImv.png)
 
