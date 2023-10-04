@@ -1,5 +1,5 @@
 # CURSO DE MYSQL
-👨‍⚖️CURSO COMPRETO DE BANCO DE DADOS COM MYSQL.
+👨‍⚖️MYSQL É UM SISTEMA DE GERENCIAMENTO DE BANCO DE DADOS, QUE UTILIZA A LINGUAGEM SQL COMO INTERFACE.
 
 [![GitHub Repo stars](https://img.shields.io/badge/VILHALVA-GITHUB-03A9F4?logo=github)](https://github.com/VILHALVA) 
 [![GitHub Repo stars](https://img.shields.io/badge/VEJA%20OS-VIDEOS-03A9F4?logo=youtube)](https://www.youtube.com/@vilhalva100/search?query=mysql) <br>
