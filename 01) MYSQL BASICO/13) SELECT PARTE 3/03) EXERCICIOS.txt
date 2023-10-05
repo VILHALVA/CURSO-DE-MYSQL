@@ -1,7 +1,0 @@
-01 -> Select profissao, count(*) from gafanhotos Group by profissao;
-
-02 -> Where nascimento > ‘2015-01-01’ Group by sexo;
-
-03 -> Select nacionalidade, count(*) from gafanhotos Where nacionalidade != ‘Brasil’ Group by nacionalidade Having count(*) > 3;
-
-04 -> Select altura, count(*) from gafanhotos Where peso > ‘100’ Group by altura Having altura > (select avg(altura) from gafanhotos);
