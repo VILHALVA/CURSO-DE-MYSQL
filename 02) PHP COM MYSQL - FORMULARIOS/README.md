@@ -87,9 +87,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 Neste exemplo, o formulário coleta informações de nome, email e senha do usuário e insere essas informações em uma tabela chamada "usuarios" no banco de dados. É importante lembrar que, em um ambiente real, você deve validar e sanitizar os dados enviados pelo formulário para evitar ataques de injeção de SQL e outros problemas de segurança. Além disso, você pode adicionar mais campos e personalizar a lógica de processamento do formulário de acordo com suas necessidades específicas.
 
 # 🈸PHP COM MYSQL E PDO
-```markdown
 # Formulário PHP com MySQL e PDO
-
 Este é um exemplo simples de um formulário PHP que coleta dados de um usuário (email e senha) e salva esses dados em um banco de dados MySQL usando PDO para uma camada de abstração do banco de dados.
 
 ## Conteúdo
@@ -99,7 +97,6 @@ Este é um exemplo simples de um formulário PHP que coleta dados de um usuário
 - [Explicação do Código](#explicação-do-código)
 
 ## Instruções
-
 1. Crie o banco de dados MySQL e a tabela utilizando os seguintes comandos SQL:
 
 ```sql
@@ -130,7 +127,6 @@ $dbname = "registro"; // Nome do banco de dados criado
 5. Preencha o formulário com um email e senha, e clique em "Cadastrar".
 
 ## Explicação do Código
-
 O código PHP utiliza PDO para conectar-se ao banco de dados MySQL, coletar os dados do formulário, inserir os dados na tabela `clientes` e lidar com possíveis erros.
 
 - `index.html`: Contém o formulário HTML com campos de email e senha.
