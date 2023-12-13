@@ -241,3 +241,30 @@ Passo 7: Siga as etapas do assistente e revise as configurações de importaçã
 Passo 8: Clique em "Start Import" e aguarde até que o processo de importação seja concluído. Os dados serão importados para o banco de dados especificado.
 
 Este tutorial mostra como exportar, fazer backup e importar um banco de dados usando o MySQL Workbench, uma ferramenta gráfica fornecida pelo MySQL. Isso permite que você realize essas tarefas de forma fácil e visual, sem a necessidade de usar o terminal.
+
+# CARACTERÍSTICAS:
+## POSITIVAS:
+- **Sistema de Gerenciamento de Banco de Dados Relacional:** MySQL é um sistema de gerenciamento de banco de dados relacional, projetado para armazenar, organizar e recuperar dados de maneira eficiente.
+
+- **Open Source:** MySQL é uma plataforma de código aberto, permitindo acesso ao código-fonte e personalização conforme necessário.
+
+- **Ampla Adoção:** É uma das bases de dados mais amplamente adotadas no mundo, sendo utilizado por uma variedade de aplicativos, desde pequenos sites até grandes empresas.
+
+- **Suporte a Transações:** Oferece suporte a transações, permitindo operações atômicas, consistentes, isoladas e duráveis (ACID).
+
+- **Rápido Desempenho:** É conhecido por seu desempenho rápido, especialmente em operações de leitura, e possui otimizações para consultas complexas.
+
+- **Comunidade Ativa:** Possui uma comunidade ativa de desenvolvedores e usuários, fornecendo suporte, tutoriais e atualizações frequentes.
+
+## NEGATIVAS:
+- **Licenciamento para Algumas Implementações:** Embora seja de código aberto, o MySQL pode ter licenciamento comercial para certas implementações ou uso em contextos específicos.
+
+- **Recursos Avançados Limitados na Versão Gratuita:** Alguns recursos avançados podem estar disponíveis apenas nas versões comerciais do MySQL, o que pode ser uma consideração para casos de uso específicos.
+
+- **Menos Recursos de Business Intelligence Integrados:** Comparado a alguns concorrentes, o MySQL pode ter menos recursos integrados para análise de negócios e inteligência de negócios.
+
+- **Curva de Aprendizado para Otimização:** A otimização e ajuste de desempenho do MySQL podem exigir conhecimento mais aprofundado, resultando em uma curva de aprendizado para maximizar o desempenho em casos específicos.
+
+- **Menos Recursos de Segurança Avançados na Versão Gratuita:** Alguns recursos de segurança avançados podem ser limitados na versão gratuita, o que pode ser uma consideração para ambientes mais críticos.
+
+- **Gestão Manual de Escalabilidade:** Em comparação com algumas soluções de banco de dados mais recentes, a escalabilidade pode exigir uma gestão mais manual em determinados casos.
