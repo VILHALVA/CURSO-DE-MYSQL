@@ -2,16 +2,10 @@
 👨‍⚖️MYSQL É UM SISTEMA DE GERENCIAMENTO DE BANCO DE DADOS, QUE UTILIZA A LINGUAGEM SQL COMO INTERFACE.
 
 [![GitHub Repo stars](https://img.shields.io/badge/VILHALVA-GITHUB-03A9F4?logo=github)](https://github.com/VILHALVA) 
-[![GitHub Repo stars](https://img.shields.io/badge/VEJA%20OS-VIDEOS-03A9F4?logo=youtube)](https://www.youtube.com/@vilhalva100/search?query=mysql) <br>
-
 [![GitHub Repo stars](https://img.shields.io/badge/VEJA-DOCUMENTAÇÃO-03A9F4?logo=google)](https://dev.mysql.com/doc/) <br>
 
 [![GitHub Repo stars](https://img.shields.io/badge/-MYSQL%20BASICO-blueviolet)](https://youtube.com/playlist?list=PLHz_AreHm4dkBs-795Dsgvau_ekxg8g1r)
 [![GitHub Repo stars](https://img.shields.io/badge/-MYSQL%20COM%20PHP-blueviolet)](https://www.youtube.com/playlist?list=PLRwFkczMQf9D4l2D4LY7Uwqf83pzmgdCT)
-
-<img src="https://styles.redditmedia.com/t5_2qm6k/styles/communityIcon_dhjr6guc03x51.png?width=256&s=3e825b7205c7f497d4695028e358d26ee359f84b" align="center" width="280"> <br>
-
-![](https://i.imgur.com/waxVImv.png)
 
 # 💙SUA HISTÓRIA:
 O MySQL é um sistema de gerenciamento de banco de dados relacional de código aberto que foi lançado pela primeira vez em 1995. Foi desenvolvido pela empresa sueca MySQL AB, fundada por Michael Widenius, David Axmark e Allan Larsson. O objetivo era criar um banco de dados rápido, confiável e de fácil uso para aplicações web.
