@@ -4,10 +4,6 @@
 [![GitHub Repo stars](https://img.shields.io/badge/VILHALVA-GITHUB-03A9F4?logo=github)](https://github.com/VILHALVA) 
 [![GitHub Repo stars](https://img.shields.io/badge/-PLAYLIST%20DO%20YOUTUBE-blueviolet)](https://www.youtube.com/playlist?list=PLRwFkczMQf9D4l2D4LY7Uwqf83pzmgdCT) <br>
 
-<img src="https://codeacademy.sarutech.com/assets/icons/php-icon.png" align="center" width="280"> <br>
-
-![](https://i.imgur.com/waxVImv.png)
-
 # 🈶PHP COM MYSQL NOS FORMULÁRIOS:
 Para usar o PHP junto com o MySQL em formulários, você precisa seguir algumas etapas básicas:
 
