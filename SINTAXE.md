@@ -47,8 +47,8 @@ A coluna "id" é definida como chave primária usando a cláusula PRIMARY KEY, g
 
 Observe que essas definições são apenas um exemplo e podem ser ajustadas de acordo com as necessidades específicas do seu projeto.
 
-# 💜COMANDOS MAIS USADOS:
-## 🖤NO BANCO DE DADOS:
+## COMANDOS MAIS USADOS:
+### NO BANCO DE DADOS:
 Aqui estão alguns dos principais comandos do MySQL para criação, seleção e exclusão de bancos de dados:
 
 * **1. CREATE DATABASE:** O comando CREATE DATABASE é usado para criar um novo banco de dados no servidor.
@@ -77,7 +77,7 @@ DROP DATABASE meu_banco_de_dados;
 ```
 Esses são alguns dos comandos básicos do MySQL relacionados à criação, seleção e exclusão de bancos de dados. Lembre-se de que esses comandos são específicos do MySQL e podem variar um pouco em outros sistemas de gerenciamento de banco de dados.
 
-## 💚NAS TABELAS:
+### NAS TABELAS:
 Aqui estão alguns dos principais comandos do MySQL para criação, alteração e exclusão de tabelas:
 
 * **1. CREATE TABLE:** O comando CREATE TABLE é usado para criar uma nova tabela no banco de dados. Você precisa especificar o nome da tabela e as colunas que ela terá, juntamente com seus tipos de dados e outras opções.
@@ -130,10 +130,9 @@ DESC minha_tabela;
 ```
 Esses são apenas alguns dos principais comandos do MySQL relacionados à criação, alteração e exclusão de tabelas. Existem muitos outros comandos e opções disponíveis para manipular e gerenciar bancos de dados no MySQL.
 
-# 💌FAZENDO O BACKUP DO BANCO DE DADOS:
-## 1) USANDO O TERMINAL:
-### Exportar/Fazer backup do banco de dados:
-
+## FAZENDO O BACKUP DO BANCO DE DADOS:
+###  1) USANDO O TERMINAL:
+#### Exportar/Fazer backup do banco de dados:
 Passo 1: Abra o terminal ou prompt de comando e navegue até o diretório onde você deseja salvar o arquivo de backup.
 
 Passo 2: Use o comando `mysqldump` seguido das opções `-u` para o nome de usuário, `-p` para solicitar a senha e o nome do banco de dados que você deseja exportar. Em seguida, redirecione a saída para um arquivo de backup.
@@ -146,8 +145,7 @@ Você será solicitado a digitar a senha do usuário.
 
 Passo 3: Aguarde até que o processo seja concluído. O arquivo `backup.sql` será gerado no diretório especificado.
 
-### Importar o banco de dados:
-
+#### Importar o banco de dados:
 Passo 1: Certifique-se de ter o arquivo de backup (gerado na seção anterior) disponível em seu sistema.
 
 Passo 2: Crie um banco de dados vazio no qual você importará os dados.
@@ -171,8 +169,8 @@ Lembre-se de substituir `seu_usuario` pelo nome de usuário correto e `seu_banco
 
 Com esse tutorial, você poderá exportar e importar bancos de dados MySQL usando o utilitário `mysqldump` para backup e o comando `mysql` para importação. Isso permite que você proteja seus dados e restaure-os facilmente quando necessário.
 
-## 2) USANDO O MYSQL WORKBENCH:
-### Exportar/Fazer backup do banco de dados:
+### 2) USANDO O MYSQL WORKBENCH:
+#### Exportar/Fazer backup do banco de dados:
 Passo 1: Abra o MySQL Workbench e faça login em sua conexão.
 
 Passo 2: No painel Navigator, clique com o botão direito do mouse no banco de dados que deseja exportar e selecione a opção "Export Data".
@@ -185,7 +183,7 @@ Passo 5: Escolha o diretório de destino para salvar o arquivo de backup.
 
 Passo 6: Clique no botão "Start Export" e aguarde até que o processo de exportação seja concluído. O arquivo de backup será salvo no diretório especificado.
 
-### Importar o banco de dados:
+#### Importar o banco de dados:
 Passo 1: Abra o MySQL Workbench e faça login em sua conexão.
 
 Passo 2: No painel Navigator, clique com o botão direito do mouse na conexão e selecione a opção "Create Schema".
