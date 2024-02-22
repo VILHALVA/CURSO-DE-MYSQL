@@ -59,4 +59,6 @@ Atualmente, o MySQL é amplamente utilizado em todo o mundo, desde pequenas apli
 - [CURSO FEITO PELO VILHALVA](https://github.com/VILHALVA)
 - [VEJA A DOCUMENTAÇÃO](https://dev.mysql.com/doc/)
 - [VEJA A SINTAXE](./SINTAXE.md)
+- [VEJA O MANUAL MYSQL](./MANUAL.md)
+- [VEJA O MANUAL DO XAMPP](./XAMPP.md)
 - [VEJA OS COMANDOS](./COMANDOS.md)
