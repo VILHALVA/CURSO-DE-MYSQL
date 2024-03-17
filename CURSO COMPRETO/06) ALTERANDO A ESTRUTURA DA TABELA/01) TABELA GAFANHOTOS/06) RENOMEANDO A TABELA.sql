@@ -1,4 +1,6 @@
-alter table pessoas
-rename to gafanhotos;
+-- Renomeando a tabela "pessoas" para "gafanhotos".
+ALTER TABLE pessoas
+RENAME TO gafanhotos;
 
-desc gafanhotos;
+-- Exibindo a estrutura atualizada da tabela renomeada.
+DESCRIBE gafanhotos;

@@ -1,9 +1,11 @@
-create table if not exists cursos (
-	nome varchar(20) not null unique,
-    descricao text,
-    carga int unsigned,
-    totalaulas int unsigned,
-    ano year default '2023'
-) default charset=utf8;
+-- Criando a tabela "cursos" com as colunas especificadas.
+CREATE TABLE IF NOT EXISTS cursos (
+    nome VARCHAR(20) NOT NULL UNIQUE,
+    descricao TEXT,
+    carga INT UNSIGNED,
+    totalaulas INT UNSIGNED,
+    ano YEAR DEFAULT '2023'
+) DEFAULT CHARSET=utf8;
 
-describe cursos;
+-- Exibindo a estrutura da tabela "cursos".
+DESCRIBE cursos;

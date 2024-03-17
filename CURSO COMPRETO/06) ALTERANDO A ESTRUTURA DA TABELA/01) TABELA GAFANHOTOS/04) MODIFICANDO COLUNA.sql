@@ -1,6 +1,9 @@
-alter table pessoas
-modify column profissao varchar(20) not null default '';
+-- Modificando a coluna "profissao" na tabela "pessoas" para ser do tipo VARCHAR(20), não nula e com valor padrão vazio ('').
+ALTER TABLE pessoas
+MODIFY COLUMN profissao VARCHAR(20) NOT NULL DEFAULT '';
 
-describe pessoas;
+-- Exibindo a estrutura atualizada da tabela "pessoas".
+DESCRIBE pessoas;
 
-select * from pessoas;
+-- Selecionando todos os registros da tabela "pessoas".
+SELECT * FROM pessoas;

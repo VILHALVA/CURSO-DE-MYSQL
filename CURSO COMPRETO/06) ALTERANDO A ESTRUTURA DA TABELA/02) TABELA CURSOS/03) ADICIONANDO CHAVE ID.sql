@@ -1,4 +1,6 @@
-alter table cursos
-add primary key(id_cursos);
+-- Adicionando a restrição PRIMARY KEY à coluna "id_cursos" na tabela "cursos".
+ALTER TABLE cursos
+ADD PRIMARY KEY (id_cursos);
 
-describe cursos;
+-- Exibindo a estrutura atualizada da tabela "cursos".
+DESCRIBE cursos;

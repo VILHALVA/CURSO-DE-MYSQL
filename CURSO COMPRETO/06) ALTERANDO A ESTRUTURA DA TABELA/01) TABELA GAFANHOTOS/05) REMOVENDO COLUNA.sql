@@ -1,6 +1,9 @@
-alter table pessoas
-drop column profissao;
+-- Removendo a coluna "profissao" da tabela "pessoas".
+ALTER TABLE pessoas
+DROP COLUMN profissao;
 
-select * from pessoas;
+-- Selecionando todos os registros da tabela "pessoas" após a remoção da coluna.
+SELECT * FROM pessoas;
 
-describe pessoas;
+-- Exibindo a estrutura atualizada da tabela "pessoas".
+DESCRIBE pessoas;

@@ -1,4 +1,6 @@
-alter table cursos
-add column id_cursos int first;
+-- Adicionando a coluna "id_cursos" como a primeira coluna na tabela "cursos".
+ALTER TABLE cursos
+ADD COLUMN id_cursos INT FIRST;
 
-describe cursos;
+-- Exibindo a estrutura atualizada da tabela "cursos".
+DESCRIBE cursos;
