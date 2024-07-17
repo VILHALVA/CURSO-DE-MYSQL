@@ -130,74 +130,199 @@ DESC minha_tabela;
 ```
 Esses são apenas alguns dos principais comandos do MySQL relacionados à criação, alteração e exclusão de tabelas. Existem muitos outros comandos e opções disponíveis para manipular e gerenciar bancos de dados no MySQL.
 
-## FAZENDO O BACKUP DO BANCO DE DADOS:
-###  1) USANDO O TERMINAL:
-#### Exportar/Fazer backup do banco de dados:
-Passo 1: Abra o terminal ou prompt de comando e navegue até o diretório onde você deseja salvar o arquivo de backup.
-
-Passo 2: Use o comando `mysqldump` seguido das opções `-u` para o nome de usuário, `-p` para solicitar a senha e o nome do banco de dados que você deseja exportar. Em seguida, redirecione a saída para um arquivo de backup.
-
-Exemplo:
-```bash
-mysqldump -u seu_usuario -p seu_banco_de_dados > backup.sql
-```
-Você será solicitado a digitar a senha do usuário.
-
-Passo 3: Aguarde até que o processo seja concluído. O arquivo `backup.sql` será gerado no diretório especificado.
-
-#### Importar o banco de dados:
-Passo 1: Certifique-se de ter o arquivo de backup (gerado na seção anterior) disponível em seu sistema.
-
-Passo 2: Crie um banco de dados vazio no qual você importará os dados.
-
+## CATEGORIAS DE COMANDOS:
+### DDL:
+Os comandos DDL (Data Definition Language) são um conjunto de comandos utilizados no MySQL para definir e gerenciar a estrutura dos objetos de um banco de dados, como tabelas, índices e restrições. Abaixo estão alguns dos principais comandos DDL do MySQL:
+* **1. CREATE TABLE:** O comando CREATE TABLE é usado para criar uma nova tabela no banco de dados. Ele define o nome da tabela, suas colunas, tipos de dados, restrições e índices.
 Exemplo:
 ```sql
-CREATE DATABASE seu_banco_de_dados;
+CREATE TABLE minha_tabela (
+    id INT PRIMARY KEY,
+    nome VARCHAR(50) NOT NULL,
+    idade INT
+);
 ```
-
-Passo 3: Use o comando `mysql` seguido das opções `-u` para o nome de usuário, `-p` para solicitar a senha e o nome do banco de dados no qual você deseja importar os dados. Em seguida, redirecione a entrada para o arquivo de backup.
-
+* **2. ALTER TABLE:** O comando ALTER TABLE é usado para modificar uma tabela existente. Pode ser usado para adicionar, modificar ou excluir colunas, alterar tipos de dados, adicionar restrições e índices, entre outras operações.
 Exemplo:
-```bash
-mysql -u seu_usuario -p seu_banco_de_dados < backup.sql
+```sql
+ALTER TABLE minha_tabela
+ADD COLUMN sobrenome VARCHAR(50),
+MODIFY COLUMN idade INT NOT NULL,
+DROP COLUMN idade;
 ```
-Você será solicitado a digitar a senha do usuário.
+* **3. DROP TABLE:** O comando DROP TABLE é usado para excluir uma tabela do banco de dados juntamente com todos os dados e estrutura associados a ela.
+Exemplo:
+```sql
+DROP TABLE minha_tabela;
+```
+* **4. CREATE INDEX:** O comando CREATE INDEX é usado para criar um índice em uma ou mais colunas de uma tabela. Isso melhora a velocidade de busca e classificação dos dados.
+Exemplo:
+```sql
+CREATE INDEX idx_nome ON minha_tabela (nome);
+```
+* **5. DROP INDEX:** O comando DROP INDEX é usado para excluir um índice existente de uma tabela.
+Exemplo:
+```sql
+DROP INDEX idx_nome ON minha_tabela;
+```
+* **6. TRUNCATE TABLE:** O comando TRUNCATE TABLE é usado para remover todos os dados de uma tabela, mantendo sua estrutura intacta. É mais rápido do que excluir todos os registros individualmente.
+Exemplo:
+```sql
+TRUNCATE TABLE minha_tabela;
+```
+Esses são apenas alguns dos comandos DDL mais comumente usados no MySQL. Eles permitem criar, modificar e excluir objetos do banco de dados, bem como definir índices para otimizar o desempenho das consultas.
 
-Passo 4: Aguarde até que o processo seja concluído. Os dados serão importados para o banco de dados especificado.
+### DML:
+Os comandos DML (Data Manipulation Language) são utilizados para manipular os dados dentro das tabelas de um banco de dados. Eles permitem a inserção, atualização, seleção e exclusão de registros. Abaixo estão alguns dos principais comandos DML no MySQL:
+* **1. INSERT INTO:** O comando INSERT INTO é usado para inserir novos registros em uma tabela.
+Exemplo:
+```sql
+INSERT INTO minha_tabela (coluna1, coluna2, coluna3)
+VALUES (valor1, valor2, valor3);
+```
+* **2. UPDATE:** O comando UPDATE é usado para modificar os valores de um ou mais registros em uma tabela.
+Exemplo:
+```sql
+UPDATE minha_tabela
+SET coluna1 = novo_valor1, coluna2 = novo_valor2
+WHERE condição;
+```
+* **3. DELETE FROM:** O comando DELETE FROM é usado para excluir registros de uma tabela.
+Exemplo:
+```sql
+DELETE FROM minha_tabela
+WHERE condição;
+```
+* **4. SELECT:** O comando SELECT é usado para recuperar dados de uma ou mais tabelas. Ele permite a seleção de colunas específicas, a aplicação de filtros e a ordenação dos resultados.
+Exemplo:
+```sql
+SELECT coluna1, coluna2
+FROM minha_tabela
+WHERE condição
+ORDER BY coluna1 ASC;
+```
+* **5. JOIN:** O comando JOIN é usado para combinar dados de duas ou mais tabelas com base em uma condição de junção. Isso permite a recuperação de dados relacionados armazenados em diferentes tabelas.
+Exemplo:
+```sql
+SELECT coluna1, coluna2
+FROM tabela1
+JOIN tabela2 ON tabela1.coluna_id = tabela2.coluna_id;
+```
+* **6. INSET INTO ... SELECT:** O comando INSERT INTO ... SELECT permite inserir dados em uma tabela a partir de uma consulta SELECT.
+Exemplo:
+```sql
+INSERT INTO nova_tabela (coluna1, coluna2)
+SELECT coluna1, coluna2
+FROM minha_tabela
+WHERE condição;
+```
+Esses são alguns dos comandos DML mais utilizados no MySQL. Eles fornecem as principais operações para manipulação de dados em um banco de dados relacional.
 
-Lembre-se de substituir `seu_usuario` pelo nome de usuário correto e `seu_banco_de_dados` pelo nome do banco de dados apropriado.
+### DQL:
+DQL (Data Query Language) é uma subcategoria da SQL (Structured Query Language) que lida principalmente com a consulta de dados em um banco de dados. Os comandos DQL incluem principalmente o comando `SELECT`. Vou fornecer alguns exemplos de comandos DQL no MySQL, juntamente com explicações.
 
-Com esse tutorial, você poderá exportar e importar bancos de dados MySQL usando o utilitário `mysqldump` para backup e o comando `mysql` para importação. Isso permite que você proteja seus dados e restaure-os facilmente quando necessário.
+* **1. SELEÇÃO SIMPLES:**
 
-### 2) USANDO O MYSQL WORKBENCH:
-#### Exportar/Fazer backup do banco de dados:
-Passo 1: Abra o MySQL Workbench e faça login em sua conexão.
+```sql
+SELECT * FROM funcionarios;
+```
+**Explicação:** Este comando seleciona todas as colunas de todas as linhas da tabela `funcionarios`.
 
-Passo 2: No painel Navigator, clique com o botão direito do mouse no banco de dados que deseja exportar e selecione a opção "Export Data".
+* **2. SELEÇÃO DE COLUNAS ESPECÍFICAS:**
+```sql
+SELECT nome, salario FROM funcionarios;
+```
+**Explicação:** Este comando seleciona apenas as colunas `nome` e `salario` da tabela `funcionarios`.
 
-Passo 3: Na janela "Data Export", selecione as tabelas que deseja exportar ou deixe todas selecionadas para exportar o banco de dados completo.
+* **3. USO DE `WHERE` PARA FILTRAGEM:**
+```sql
+SELECT nome, salario FROM funcionarios WHERE salario > 3000;
+```
+**Explicação:** Este comando seleciona os nomes e salários dos funcionários cujo salário é maior que 3000.
 
-Passo 4: Escolha o formato do arquivo de backup na seção "Output". Por exemplo, você pode selecionar "SQL" para obter um arquivo SQL contendo instruções SQL para recriar o banco de dados.
+* **4. ORDENAÇÃO COM `ORDER BY`:**
+```sql
+SELECT nome, salario FROM funcionarios ORDER BY salario DESC;
+```
+**Explicação:** Este comando seleciona os nomes e salários dos funcionários e ordena os resultados pelo salário em ordem decrescente.
 
-Passo 5: Escolha o diretório de destino para salvar o arquivo de backup.
+* **5. LIMITAR O NÚMERO DE RESULTADOS COM `LIMIT`:**
+```sql
+SELECT nome, salario FROM funcionarios ORDER BY salario DESC LIMIT 5;
+```
+**Explicação:** Este comando seleciona os nomes e salários dos funcionários, ordena os resultados pelo salário em ordem decrescente e limita os resultados aos 5 primeiros registros.
 
-Passo 6: Clique no botão "Start Export" e aguarde até que o processo de exportação seja concluído. O arquivo de backup será salvo no diretório especificado.
+* **6. SELEÇÃO COM JUNÇÃO (`JOIN`):**
+```sql
+SELECT funcionarios.nome, departamentos.nome 
+FROM funcionarios 
+JOIN departamentos ON funcionarios.departamento_id = departamentos.id;
+```
+**Explicação:** Este comando seleciona os nomes dos funcionários e os nomes dos departamentos associando as tabelas `funcionarios` e `departamentos` com base na correspondência entre `departamento_id` em `funcionarios` e `id` em `departamentos`.
 
-#### Importar o banco de dados:
-Passo 1: Abra o MySQL Workbench e faça login em sua conexão.
+* **7. USO DE FUNÇÕES DE AGREGAÇÃO:**
+```sql
+SELECT departamento_id, AVG(salario) as salario_medio 
+FROM funcionarios 
+GROUP BY departamento_id;
+```
+**Explicação:** Este comando calcula o salário médio dos funcionários para cada departamento, agrupando os resultados pelo `departamento_id`.
 
-Passo 2: No painel Navigator, clique com o botão direito do mouse na conexão e selecione a opção "Create Schema".
+* **8. FILTRAGEM COM `HAVING` APÓS AGREGAÇÃO:**
+```sql
+SELECT departamento_id, AVG(salario) as salario_medio 
+FROM funcionarios 
+GROUP BY departamento_id 
+HAVING AVG(salario) > 3000;
+```
+**Explicação:** Este comando é semelhante ao anterior, mas adiciona uma cláusula `HAVING` para filtrar os grupos e mostrar apenas aqueles departamentos cuja média salarial é maior que 3000.
 
-Passo 3: Digite o nome do banco de dados que você deseja criar e clique em "Apply".
+* **9. SUBCONSULTAS:**
+```sql
+SELECT nome, salario 
+FROM funcionarios 
+WHERE salario > (SELECT AVG(salario) FROM funcionarios);
+```
+**Explicação:** Este comando seleciona os nomes e salários dos funcionários cujo salário é maior que a média salarial de todos os funcionários.
 
-Passo 4: No painel Navigator, clique com o botão direito do mouse no banco de dados recém-criado e selecione a opção "Table Data Import Wizard".
+* **10. USO DE ALIASES:**
+```sql
+SELECT f.nome AS funcionario, d.nome AS departamento 
+FROM funcionarios f 
+JOIN departamentos d ON f.departamento_id = d.id;
+```
+**Explicação:** Este comando usa aliases (`f` para `funcionarios` e `d` para `departamentos`) para tornar a consulta mais legível, selecionando os nomes dos funcionários e departamentos.
 
-Passo 5: Na janela "Table Data Import Wizard", selecione o arquivo de backup que deseja importar.
+Esses exemplos cobrem uma ampla gama de operações de consulta de dados que você pode realizar usando DQL no MySQL. Com essas consultas, você pode extrair, filtrar, ordenar e agrupar dados de maneira eficaz conforme necessário.
 
-Passo 6: Escolha as opções de importação, como "Create new table" para criar uma nova tabela ou "Append data to existing table" para adicionar os dados a uma tabela existente.
+## TABELA:
+Aqui está uma tabela mostrando os principais tipos de comandos no MySQL, organizados por categorias de SQL: DQL, DML, DDL, DCL e TCL:
 
-Passo 7: Siga as etapas do assistente e revise as configurações de importação.
+| Categoria | Tipo de Comando | Descrição | Exemplo |
+|-----------|-----------------|-----------|---------|
+| **DQL (Data Query Language)** | `SELECT` | Consulta dados de uma tabela ou mais tabelas | `SELECT * FROM funcionarios;` |
+| **DML (Data Manipulation Language)** | `INSERT` | Insere novos dados em uma tabela | `INSERT INTO funcionarios (nome, salario) VALUES ('João', 3000);` |
+| | `UPDATE` | Atualiza dados existentes em uma tabela | `UPDATE funcionarios SET salario = 3500 WHERE nome = 'João';` |
+| | `DELETE` | Remove dados de uma tabela | `DELETE FROM funcionarios WHERE nome = 'João';` |
+| **DDL (Data Definition Language)** | `CREATE TABLE` | Cria uma nova tabela no banco de dados | `CREATE TABLE funcionarios (id INT AUTO_INCREMENT, nome VARCHAR(100), salario DECIMAL(10, 2), PRIMARY KEY(id));` |
+| | `ALTER TABLE` | Modifica a estrutura de uma tabela existente | `ALTER TABLE funcionarios ADD COLUMN departamento_id INT;` |
+| | `DROP TABLE` | Remove uma tabela do banco de dados | `DROP TABLE funcionarios;` |
+| | `CREATE DATABASE` | Cria um novo banco de dados | `CREATE DATABASE empresa;` |
+| | `DROP DATABASE` | Remove um banco de dados | `DROP DATABASE empresa;` |
+| **DCL (Data Control Language)** | `GRANT` | Concede privilégios a usuários ou roles | `GRANT SELECT, INSERT ON empresa.* TO 'usuario'@'localhost';` |
+| | `REVOKE` | Revoga privilégios de usuários ou roles | `REVOKE INSERT ON empresa.* FROM 'usuario'@'localhost';` |
+| **TCL (Transaction Control Language)** | `BEGIN` / `START TRANSACTION` | Inicia uma transação | `START TRANSACTION;` |
+| | `COMMIT` | Confirma uma transação, tornando as alterações permanentes | `COMMIT;` |
+| | `ROLLBACK` | Desfaz uma transação, revertendo as alterações | `ROLLBACK;` |
+| | `SAVEPOINT` | Define um ponto dentro de uma transação para possibilitar rollback parcial | `SAVEPOINT ponto1;` |
+| | `RELEASE SAVEPOINT` | Remove um savepoint definido anteriormente | `RELEASE SAVEPOINT ponto1;` |
 
-Passo 8: Clique em "Start Import" e aguarde até que o processo de importação seja concluído. Os dados serão importados para o banco de dados especificado.
+### EXPLICAÇÕES:
+- **DQL (Data Query Language):** Inclui o comando `SELECT`, utilizado para consultar dados de uma tabela ou múltiplas tabelas.
+- **DML (Data Manipulation Language):** Inclui comandos para manipulação de dados, como `INSERT`, `UPDATE` e `DELETE`.
+- **DDL (Data Definition Language):** Inclui comandos que definem a estrutura do banco de dados, como `CREATE TABLE`, `ALTER TABLE` e `DROP TABLE`.
+- **DCL (Data Control Language):** Inclui comandos para controle de acesso ao banco de dados, como `GRANT` e `REVOKE`.
+- **TCL (Transaction Control Language):** Inclui comandos para controle de transações, como `COMMIT`, `ROLLBACK`, `SAVEPOINT` e `RELEASE SAVEPOINT`.
 
-Este tutorial mostra como exportar, fazer backup e importar um banco de dados usando o MySQL Workbench, uma ferramenta gráfica fornecida pelo MySQL. Isso permite que você realize essas tarefas de forma fácil e visual, sem a necessidade de usar o terminal.
+
+

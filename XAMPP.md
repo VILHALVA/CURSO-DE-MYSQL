@@ -1,4 +1,4 @@
-# XAMPP - MANUAL
+# MANUAL DO XAMPP
 ## SERVIDORES:
 Servidores como XAMPP, WampServer e outros são ferramentas populares que facilitam a configuração e o gerenciamento de ambientes de desenvolvimento web local. Aqui estão algumas informações sobre essas plataformas:
 
